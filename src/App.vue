@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div class="nav" style="display: block">
+    <input type="checkbox" id="nav-check" />
+    <div class="nav-header" style="float: left">
+      <div class="nav-title">SKI SNOWBOARD</div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">Configurator</router-link>
+      <router-link to="/profile">About</router-link>
+    </div>
+  </div>
+
+        <router-view/>
+
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+@import "./assets/styles/main.css";
+
+
+
 </style>

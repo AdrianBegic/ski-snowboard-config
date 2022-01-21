@@ -1,0 +1,76 @@
+.card {
+    width: 40%;
+    height: 60vh;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15vh;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.back {
+  float: left;
+  display: inline-block;
+  background-color: #000;
+  border: none;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+
+/*--------------------------------------------SUB CARDS---------------------------------------*/
+
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.sub-title {
+  height: 10%;
+  margin-top: 10px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.option-container {
+  display: flex;
+  
+}
+
+.optionOne {
+  background-color: #000;
+  width: 30%;
+  height: 450px;
+  border-radius: 40px;
+  margin: 0 auto ;
+  cursor: pointer;
+}
+
+.optionTwo {
+  background-color: #000;
+  width: 30%;
+  border-radius: 40px;
+  margin: 0 auto ;
+  cursor: pointer;
+}
+
+.optionThree {
+  background-color: #000;
+  width: 30%;
+  border-radius: 40px;
+  margin: 0 auto ;
+  cursor: pointer;
+}
+
+#sub-choice {
+  padding-top: 20px;
+  width: 100%;
+  height: 80%;
+}

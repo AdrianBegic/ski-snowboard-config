@@ -1,0 +1,43 @@
+<div class="ski-choice">
+  <h1 class="title-ski">SKI</h1>
+  <h5 class="sub-title-ski">Configurator</h5>
+  <router-link to="/Ski">
+    <div class="img-holder">
+      <img id="choice" src="@/assets\images\4FRNT-Hoji.webp" alt="img" />
+    </div>
+  </router-link>
+</div>
+
+<div class="snowboard-choice">
+  <h1 class="title-snowboard">SNOWBOARD</h1>
+  <h5 class="sub-title-snowboard">Configurator</h5>
+  <router-link to="/Snowboard">
+    <div class="img-holder">
+      <img id="choice" src="@/assets\images\heritage-web_1.png" alt="img" />
+    </div>
+  </router-link>
+</div>
+
+<template>
+  <Background />
+  <article class="card">
+    <h1 class="card-title">SNOWBOARD</h1>
+    <div class="option-container">
+      <div class="optionOne">
+        <h1 class="sub-title">KSI</h1>
+        <img id="sub-choice" src="@/assets\images\board1.png" alt="img" />
+      </div>
+      <div class="optionTwo">
+        <h1 class="sub-title">KSI</h1>
+        <img id="sub-choice" src="@/assets\images\board1.png" alt="img" />
+      </div>
+      <div class="optionThree">
+        <h1 class="sub-title">KSI</h1>
+        <img id="sub-choice" src="@/assets\images\board1.png" alt="img" />
+      </div>
+    </div>
+    <button class="back" @click="$router.push('/')">
+      <i class="bi bi-arrow-left"></i>
+    </button>
+  </article>
+</template>
